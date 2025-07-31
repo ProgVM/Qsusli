@@ -7,7 +7,7 @@ import logging
 import torch
 import random
 import traceback
-from qsusli_model import GlobalWorkspace, load_model, generate_text, tokens_to_indices, prepare_sequences, split_text_to_sentences, fine_tune, search_wikipedia, generate_image_from_text, process_rlhf_correction
+from qsusli_model import GlobalWorkspace, load_model, generate_text, tokens_to_indices, split_text_to_sentences, fine_tune, search_wikipedia, generate_image_from_text, process_rlhf_correction
 from db import DB
 
 db = DB()
